@@ -179,6 +179,9 @@ footer {
   color: #70757a;
   height: 50%;
 }
+.upper-foot p:hover {
+  text-decoration: underline;
+}
 .upper-foot span {
   color: rgb(52, 160, 52);
 }
@@ -189,18 +192,19 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0 20px;
 }
 .lower-left {
   display: flex;
-  width: auto;
-  justify-content: center;
+  width: 350px;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
 }
 .lower-right {
   display: flex;
-  width: auto;
-  justify-content: center;
+  width: 350px;
+  justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
 }
